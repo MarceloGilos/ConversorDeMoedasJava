@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+	<Dados>
+		<nome>Dirham dos Emirados</nome>
+		<tag>AED</tag>
+	</Dados>
+	<Dados>
+		<nome>Afghani do Afeganistão</nome>
+		<tag>AFN</tag>
+	</Dados>
+	<Dados>
+		<nome>Lek Albanês</nome>
+		<tag>ALL</tag>
+	</Dados>
+	<Dados>
+		<nome>Dram Armênio</nome>
+		<tag>AMD</tag>
+	</Dados>
+	<Dados>
+		<nome>Guilder das Antilhas</nome>
+		<tag>ANG</tag>
+	</Dados>
+	<Dados>
+		<nome>Kwanza Angolano</nome>
+		<tag>AOA</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Argentino</nome>
+		<tag>ARS</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Australiano</nome>
+		<tag>AUD</tag>
+	</Dados>
+	<Dados>
+		<nome>Manat Azeri</nome>
+		<tag>AZN</tag>
+	</Dados>
+	<Dados>
+		<nome>Marco Conversível</nome>
+		<tag>BAM</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Barbados</nome>
+		<tag>BBD</tag>
+	</Dados>
+	<Dados>
+		<nome>Taka de Bangladesh</nome>
+		<tag>BDT</tag>
+	</Dados>
+	<Dados>
+		<nome>Lev Búlgaro</nome>
+		<tag>BGN</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar do Bahrein</nome>
+		<tag>BHD</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco Burundinense</nome>
+		<tag>BIF</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Brunei</nome>
+		<tag>BND</tag>
+	</Dados>
+	<Dados>
+		<nome>Boliviano</nome>
+		<tag>BOB</tag>
+	</Dados>
+	<Dados>
+		<nome>Real Brasileiro</nome>
+		<tag>BRL</tag>
+	</Dados>
+	<Dados>
+		<nome>Real Brasileiro Turismo</nome>
+		<tag>BRLT</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar das Bahamas</nome>
+		<tag>BSD</tag>
+	</Dados>
+	<Dados>
+		<nome>Bitcoin</nome>
+		<tag>BTC</tag>
+	</Dados>
+	<Dados>
+		<nome>Pula de Botswana</nome>
+		<tag>BWP</tag>
+	</Dados>
+	<Dados>
+		<nome>Rublo Bielorrusso</nome>
+		<tag>BYN</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Belize</nome>
+		<tag>BZD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Canadense</nome>
+		<tag>CAD</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco Suíço</nome>
+		<tag>CHF</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco Suíço</nome>
+		<tag>CHFRTS</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Chileno</nome>
+		<tag>CLP</tag>
+	</Dados>
+	<Dados>
+		<nome>Yuan chinês offshore</nome>
+		<tag>CNH</tag>
+	</Dados>
+	<Dados>
+		<nome>Yuan Chinês</nome>
+		<tag>CNY</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Colombiano</nome>
+		<tag>COP</tag>
+	</Dados>
+	<Dados>
+		<nome>Colón Costarriquenho</nome>
+		<tag>CRC</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Cubano</nome>
+		<tag>CUP</tag>
+	</Dados>
+	<Dados>
+		<nome>Escudo cabo-verdiano</nome>
+		<tag>CVE</tag>
+	</Dados>
+	<Dados>
+		<nome>Coroa Checa</nome>
+		<tag>CZK</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco do Djubouti</nome>
+		<tag>DJF</tag>
+	</Dados>
+	<Dados>
+		<nome>Coroa Dinamarquesa</nome>
+		<tag>DKK</tag>
+	</Dados>
+	<Dados>
+		<nome>Dogecoin</nome>
+		<tag>DOGE</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Dominicano</nome>
+		<tag>DOP</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Argelino</nome>
+		<tag>DZD</tag>
+	</Dados>
+	<Dados>
+		<nome>Libra Egípcia</nome>
+		<tag>EGP</tag>
+	</Dados>
+	<Dados>
+		<nome>Birr Etíope</nome>
+		<tag>ETB</tag>
+	</Dados>
+	<Dados>
+		<nome>Ethereum</nome>
+		<tag>ETH</tag>
+	</Dados>
+	<Dados>
+		<nome>Euro</nome>
+		<tag>EUR</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Fiji</nome>
+		<tag>FJD</tag>
+	</Dados>
+	<Dados>
+		<nome>Libra Esterlina</nome>
+		<tag>GBP</tag>
+	</Dados>
+	<Dados>
+		<nome>Lari Georgiano</nome>
+		<tag>GEL</tag>
+	</Dados>
+	<Dados>
+		<nome>Cedi Ganês</nome>
+		<tag>GHS</tag>
+	</Dados>
+	<Dados>
+		<nome>Dalasi da Gâmbia</nome>
+		<tag>GMD</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco de Guiné</nome>
+		<tag>GNF</tag>
+	</Dados>
+	<Dados>
+		<nome>Quetzal Guatemalteco</nome>
+		<tag>GTQ</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Hong Kong</nome>
+		<tag>HKD</tag>
+	</Dados>
+	<Dados>
+		<nome>Lempira Hondurenha</nome>
+		<tag>HNL</tag>
+	</Dados>
+	<Dados>
+		<nome>Kuna Croata</nome>
+		<tag>HRK</tag>
+	</Dados>
+	<Dados>
+		<nome>Gourde Haitiano</nome>
+		<tag>HTG</tag>
+	</Dados>
+	<Dados>
+		<nome>Florim Húngaro</nome>
+		<tag>HUF</tag>
+	</Dados>
+	<Dados>
+		<nome>Rupia Indonésia</nome>
+		<tag>IDR</tag>
+	</Dados>
+	<Dados>
+		<nome>Novo Shekel Israelense</nome>
+		<tag>ILS</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpia Indiana</nome>
+		<tag>INR</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Iraquiano</nome>
+		<tag>IQD</tag>
+	</Dados>
+	<Dados>
+		<nome>Rial Iraniano</nome>
+		<tag>IRR</tag>
+	</Dados>
+	<Dados>
+		<nome>Coroa Islandesa</nome>
+		<tag>ISK</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Jamaicano</nome>
+		<tag>JMD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Jordaniano</nome>
+		<tag>JOD</tag>
+	</Dados>
+	<Dados>
+		<nome>Iene Japonês</nome>
+		<tag>JPY</tag>
+	</Dados>
+	<Dados>
+		<nome>Iene Japonês</nome>
+		<tag>JPYRTS</tag>
+	</Dados>
+	<Dados>
+		<nome>Shilling Queniano</nome>
+		<tag>KES</tag>
+	</Dados>
+	<Dados>
+		<nome>Som Quirguistanês</nome>
+		<tag>KGS</tag>
+	</Dados>
+	<Dados>
+		<nome>Riel Cambojano</nome>
+		<tag>KHR</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco Comorense</nome>
+		<tag>KMF</tag>
+	</Dados>
+	<Dados>
+		<nome>Won Sul-Coreano</nome>
+		<tag>KRW</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Kuwaitiano</nome>
+		<tag>KWD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar das Ilhas Cayman</nome>
+		<tag>KYD</tag>
+	</Dados>
+	<Dados>
+		<nome>Tengue Cazaquistanês</nome>
+		<tag>KZT</tag>
+	</Dados>
+	<Dados>
+		<nome>Kip Laosiano</nome>
+		<tag>LAK</tag>
+	</Dados>
+	<Dados>
+		<nome>Libra Libanesa</nome>
+		<tag>LBP</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpia de Sri Lanka</nome>
+		<tag>LKR</tag>
+	</Dados>
+	<Dados>
+		<nome>Loti do Lesoto</nome>
+		<tag>LSL</tag>
+	</Dados>
+	<Dados>
+		<nome>Litecoin</nome>
+		<tag>LTC</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Líbio</nome>
+		<tag>LYD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dirham Marroquino</nome>
+		<tag>MAD</tag>
+	</Dados>
+	<Dados>
+		<nome>Leu Moldavo</nome>
+		<tag>MDL</tag>
+	</Dados>
+	<Dados>
+		<nome>Ariary Madagascarense</nome>
+		<tag>MGA</tag>
+	</Dados>
+	<Dados>
+		<nome>Denar Macedônio</nome>
+		<tag>MKD</tag>
+	</Dados>
+	<Dados>
+		<nome>Kyat de Mianmar</nome>
+		<tag>MMK</tag>
+	</Dados>
+	<Dados>
+		<nome>Mongolian Tugrik</nome>
+		<tag>MNT</tag>
+	</Dados>
+	<Dados>
+		<nome>Pataca de Macau</nome>
+		<tag>MOP</tag>
+	</Dados>
+	<Dados>
+		<nome>Ouguiya Mauritana</nome>
+		<tag>MRO</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpia Mauriciana</nome>
+		<tag>MUR</tag>
+	</Dados>
+	<Dados>
+		<nome>Rufiyaa Maldiva</nome>
+		<tag>MVR</tag>
+	</Dados>
+	<Dados>
+		<nome>Kwacha Malauiana</nome>
+		<tag>MWK</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Mexicano</nome>
+		<tag>MXN</tag>
+	</Dados>
+	<Dados>
+		<nome>Ringgit Malaio</nome>
+		<tag>MYR</tag>
+	</Dados>
+	<Dados>
+		<nome>Metical de Moçambique</nome>
+		<tag>MZN</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Namíbio</nome>
+		<tag>NAD</tag>
+	</Dados>
+	<Dados>
+		<nome>Naira Nigeriana</nome>
+		<tag>NGN</tag>
+	</Dados>
+	<Dados>
+		<nome>Naira Nigeriana</nome>
+		<tag>NGNI</tag>
+	</Dados>
+	<Dados>
+		<nome>Naira Nigeriana</nome>
+		<tag>NGNPARALLEL</tag>
+	</Dados>
+	<Dados>
+		<nome>Córdoba Nicaraguense</nome>
+		<tag>NIO</tag>
+	</Dados>
+	<Dados>
+		<nome>Coroa Norueguesa</nome>
+		<tag>NOK</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpia Nepalesa</nome>
+		<tag>NPR</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Neozelandês</nome>
+		<tag>NZD</tag>
+	</Dados>
+	<Dados>
+		<nome>Rial Omanense</nome>
+		<tag>OMR</tag>
+	</Dados>
+	<Dados>
+		<nome>Balboa Panamenho</nome>
+		<tag>PAB</tag>
+	</Dados>
+	<Dados>
+		<nome>Sol do Peru</nome>
+		<tag>PEN</tag>
+	</Dados>
+	<Dados>
+		<nome>Kina Papua-Nova Guiné</nome>
+		<tag>PGK</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Filipino</nome>
+		<tag>PHP</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpia Paquistanesa</nome>
+		<tag>PKR</tag>
+	</Dados>
+	<Dados>
+		<nome>Zlóti Polonês</nome>
+		<tag>PLN</tag>
+	</Dados>
+	<Dados>
+		<nome>Guarani Paraguaio</nome>
+		<tag>PYG</tag>
+	</Dados>
+	<Dados>
+		<nome>Rial Catarense</nome>
+		<tag>QAR</tag>
+	</Dados>
+	<Dados>
+		<nome>Leu Romeno</nome>
+		<tag>RON</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Sérvio</nome>
+		<tag>RSD</tag>
+	</Dados>
+	<Dados>
+		<nome>Rublo Russo</nome>
+		<tag>RUB</tag>
+	</Dados>
+	<Dados>
+		<nome>Rublo Russo</nome>
+		<tag>RUBTOD</tag>
+	</Dados>
+	<Dados>
+		<nome>Rublo Russo</nome>
+		<tag>RUBTOM</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco Ruandês</nome>
+		<tag>RWF</tag>
+	</Dados>
+	<Dados>
+		<nome>Riyal Saudita</nome>
+		<tag>SAR</tag>
+	</Dados>
+	<Dados>
+		<nome>Rúpias de Seicheles</nome>
+		<tag>SCR</tag>
+	</Dados>
+	<Dados>
+		<nome>Libra Sudanesa</nome>
+		<tag>SDG</tag>
+	</Dados>
+	<Dados>
+		<nome>DSE</nome>
+		<tag>SDR</tag>
+	</Dados>
+	<Dados>
+		<nome>Coroa Sueca</nome>
+		<tag>SEK</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Cingapura</nome>
+		<tag>SGD</tag>
+	</Dados>
+	<Dados>
+		<nome>Shilling Somaliano</nome>
+		<tag>SOS</tag>
+	</Dados>
+	<Dados>
+		<nome>Dobra São Tomé/Príncipe</nome>
+		<tag>STD</tag>
+	</Dados>
+	<Dados>
+		<nome>Colon de El Salvador</nome>
+		<tag>SVC</tag>
+	</Dados>
+	<Dados>
+		<nome>Libra Síria</nome>
+		<tag>SYP</tag>
+	</Dados>
+	<Dados>
+		<nome>Lilangeni Suazilandês</nome>
+		<tag>SZL</tag>
+	</Dados>
+	<Dados>
+		<nome>Baht Tailandês</nome>
+		<tag>THB</tag>
+	</Dados>
+	<Dados>
+		<nome>Somoni do Tajiquistão</nome>
+		<tag>TJS</tag>
+	</Dados>
+	<Dados>
+		<nome>TMT</nome>
+		<tag>TMT</tag>
+	</Dados>
+	<Dados>
+		<nome>Dinar Tunisiano</nome>
+		<tag>TND</tag>
+	</Dados>
+	<Dados>
+		<nome>Nova Lira Turca</nome>
+		<tag>TRY</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar de Trinidad</nome>
+		<tag>TTD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Taiuanês</nome>
+		<tag>TWD</tag>
+	</Dados>
+	<Dados>
+		<nome>Shilling Tanzaniano</nome>
+		<tag>TZS</tag>
+	</Dados>
+	<Dados>
+		<nome>Hryvinia Ucraniana</nome>
+		<tag>UAH</tag>
+	</Dados>
+	<Dados>
+		<nome>Shilling Ugandês</nome>
+		<tag>UGX</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Americano</nome>
+		<tag>USD</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Americano</nome>
+		<tag>USDT</tag>
+	</Dados>
+	<Dados>
+		<nome>Peso Uruguaio</nome>
+		<tag>UYU</tag>
+	</Dados>
+	<Dados>
+		<nome>Som Uzbequistanês</nome>
+		<tag>UZS</tag>
+	</Dados>
+	<Dados>
+		<nome>Bolívar Venezuelano</nome>
+		<tag>VEF</tag>
+	</Dados>
+	<Dados>
+		<nome>Dong Vietnamita</nome>
+		<tag>VND</tag>
+	</Dados>
+	<Dados>
+		<nome>Vatu de Vanuatu</nome>
+		<tag>VUV</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco CFA Central</nome>
+		<tag>XAF</tag>
+	</Dados>
+	<Dados>
+		<nome>Prata</nome>
+		<tag>XAGG</tag>
+	</Dados>
+	<Dados>
+		<nome>Brent Spot</nome>
+		<tag>XBR</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar do Caribe Oriental</nome>
+		<tag>XCD</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco CFA Ocidental</nome>
+		<tag>XOF</tag>
+	</Dados>
+	<Dados>
+		<nome>Franco CFP</nome>
+		<tag>XPF</tag>
+	</Dados>
+	<Dados>
+		<nome>XRP</nome>
+		<tag>XRP</tag>
+	</Dados>
+	<Dados>
+		<nome>Riyal Iemenita</nome>
+		<tag>YER</tag>
+	</Dados>
+	<Dados>
+		<nome>Rand Sul-Africano</nome>
+		<tag>ZAR</tag>
+	</Dados>
+	<Dados>
+		<nome>Kwacha Zambiana</nome>
+		<tag>ZMK</tag>
+	</Dados>
+	<Dados>
+		<nome>Dólar Zimbabuense</nome>
+		<tag>ZWL</tag>
+	</Dados>
+	<Dados>
+		<nome>Ouro</nome>
+		<tag>XAU</tag>
+	</Dados>
+</list>
