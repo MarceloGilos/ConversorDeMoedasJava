@@ -10,6 +10,14 @@ import java.util.List;
 
 import com.bapptech.Componentes.Cotacao;
 import com.bapptech.Componentes.Moedas;
+import com.bapptech.Conversoes.Conversao;
+import com.bapptech.Conversoes.ConversaoDireta;
+import com.bapptech.Conversoes.ConversaoDolarMoedaDolarMoeda;
+import com.bapptech.Conversoes.ConversaoDolarMoedaMoedaDolar;
+import com.bapptech.Conversoes.ConversaoInvertida;
+import com.bapptech.Conversoes.ConversaoMoedaDolarDolarMoeda;
+import com.bapptech.Conversoes.ConversaoMoedaDolarMoedaDolar;
+import com.bapptech.Conversoes.SemConversao;
 import com.google.gson.Gson;
 
 public class ApiMoedas {
@@ -68,91 +76,11 @@ public class ApiMoedas {
          */
         List<Moedas> tags = new ArrayList<Moedas>(
                 (List<Moedas>) Xstream.leitorXml(Xstream.leitorPasta("CombinacoesBdd.xml"), Moedas.class));
-        /*
-         * Reutilizando a classe moeda crio um objeto mas ao inves de ser o nome e a
-         * tag, eu armazeno
-         * a tag das duas moedas, a origem e a destino ex: BR - USD
-         */
-        Moedas procura = new Moedas(moeda1, moeda2);
-        /*
-         * Utilziando o metodo containsValidation da classe Cotacao comparo as duas
-         * moedas
-         * com um outro arquivo XML que me passa todas as combinações de moedas da API
-         */
-        // Esse IF vai comparar primeiro se existe uam cotção direta da moeda de origem
-        // para destino
-        if (Cotacao.containsValidation(tags, procura)) {
-            /*
-             * Armazeno em uma StringBuff o resultado da conversao utilizando os dados da
-             * API
-             */
-            StringBuffer valor1 = new StringBuffer(apiMoedasRequest(moeda1, moeda2).conversao2(valor));
-            return valor1;
-        } else {
-            // Objeto criado para o sgundo IF para ver se a cotação inversa existe
-            Moedas procuraElse = new Moedas(moeda2, moeda1);
-            if (Cotacao.containsValidation(tags, procuraElse)) {
-                /*
-                 * Armazeno em uma StringBuff o resultado da conversao utilizando os dados da
-                 * API
-                 */
-                StringBuffer valor1 = new StringBuffer(apiMoedasRequest(moeda2, moeda1).conversao1(valor));
-                return valor1;
-            } else {
-                /*
-                 * Aqui temos que atualizar para otimizar, porem faz oque é necessario
-                 * Como a API não tem todas as combinações, porem tenho uma moeda onde ela tem
-                 * quase todas as combinações que é o USD(dolar) porem preciso validar para
-                 * saber
-                 * se a combinação é de dolar para a moeda ou da moeda para o dolar.
-                 * exitindo 4 combinações possiveis
-                 * 1-tanto a moeda origem quanto a destino só existem cotação do dolar para elas
-                 * entao preciso converter a primeira para dolar e aseguda de dolar para
-                 * destino.
-                 * 2-igual a situação a cima porem as duas moedas tem cotação delas para dolar
-                 * então preciso converter a primeira para dolar e a segunda de dolar para
-                 * destino
-                 * 3-a primeira moeda tem cotação de dolar e a segunda dela para o dolar, então
-                 * converto a primeira para dolar e a segunda de dolar para destino
-                 * 4- O ultimo caso, é o inverso da de cima, a primeira moeda tem contação de
-                 * dolar para ela e a segunda dela para cota.
-                 * TODOS OS IF A BAIXO SÃO PARA ISSO E VAO RETORNAR O VALOR DA CONVERSÃO DIRETO
-                 * PUXANDO PELA API OS DADOS NECESSARIOS.
-                 */
-                Moedas procuraUsd1 = new Moedas("USD", moeda1);
-                Moedas procuraUsd2 = new Moedas("USD", moeda2);
-                Moedas procuraUsd3 = new Moedas(moeda1, "USD");
-                Moedas procuraUsd4 = new Moedas(moeda2, "USD");
-                if (Cotacao.containsValidation(tags, procuraUsd1) && Cotacao.containsValidation(tags, procuraUsd2)) {
-                    StringBuffer valor1 = new StringBuffer(apiMoedasRequest(moeda1, "USD").conversao2(valor));
-                    StringBuffer valor2 = new StringBuffer(
-                            apiMoedasRequest(moeda2, "USD").conversao1(Double.parseDouble(valor1.toString())));
-                    return valor2;
-                } else if (Cotacao.containsValidation(tags, procuraUsd3)
-                        && Cotacao.containsValidation(tags, procuraUsd4)) {
 
-                    StringBuffer valor1 = new StringBuffer(apiMoedasRequest("USD", moeda1).conversao1(valor));
-                    StringBuffer valor2 = new StringBuffer(
-                            apiMoedasRequest("USD", moeda2).conversao2(Double.parseDouble(valor1.toString())));
-                    return valor2;
-                } else if (Cotacao.containsValidation(tags, procuraUsd3)
-                        && Cotacao.containsValidation(tags, procuraUsd2)) {
-
-                    StringBuffer valor1 = new StringBuffer(apiMoedasRequest("USD", moeda1).conversao1(valor));
-                    StringBuffer valor2 = new StringBuffer(
-                            apiMoedasRequest(moeda2, "USD").conversao2(Double.parseDouble(valor1.toString())));
-                    return valor2;
-                } else {
-
-                    System.out.println(moeda1 + moeda2);
-                    StringBuffer valor1 = new StringBuffer(apiMoedasRequest(moeda1, "USD").conversao2(valor));
-                    StringBuffer valor2 = new StringBuffer(
-                            apiMoedasRequest("USD", moeda2).conversao2(Double.parseDouble(valor1.toString())));
-                    return valor2;
-                }
-            }
-        }
-
+        Conversao conversao = new ConversaoDireta(new ConversaoInvertida(
+                new ConversaoMoedaDolarMoedaDolar(new ConversaoDolarMoedaDolarMoeda(new ConversaoDolarMoedaMoedaDolar(
+                        new ConversaoMoedaDolarDolarMoeda(new SemConversao(null)))))));
+                            return conversao.converter(moeda1, moeda2, tags, valor);
     }
 
 }
